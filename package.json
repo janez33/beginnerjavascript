@@ -4,6 +4,8 @@
   "description": "Awesome course from Wes Bos",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/janez33/beginnerjavascript#readme",
   "devDependencies": {
     "babel-eslint": "^9.0.0",
+    "cssnano": "^4.1.10",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^4.3.0",
