@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 // The Recipe Puppy API used in the course is broken
 // Please use this replacement API URL "https://recipes.beginnerjavascript.com/api"
 const baseEndpoint = 'https://recipes.beginnerjavascript.com/api';
@@ -13,7 +14,6 @@ async function fetchRecipes(query) {
 
 async function handleSubmit(event) {
   event.preventDefault();
-  const el = event.currentTarget;
   console.log(form.query.value);
   fetchAndDisplay(form.query.value);
 }
